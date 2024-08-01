@@ -1,10 +1,12 @@
 import React from "react"
-import Header from "./components/Header"
-export default function App(){
+import Navbar from "./Components/Navbar"
+import Footer from "./Components/Footer"
+function App(){
   return(
-    <>
-      <Header />
-
-    </>
+    <div>
+      <Navbar/>
+      <Footer/>
+    </div>
   )
 }
+export default App
