@@ -6,6 +6,7 @@ import About from "./Components/About"
 import Service from "./Components/Service"
 import EducationCard from "./Components/EducationCard"
 import Project from "./Components/Project"
+import Contact from "./Components/Contact"
 function App(){
   return(
     <div>
@@ -15,6 +16,7 @@ function App(){
       <EducationCard/>
       <Service/>
       <Project/>
+      <Contact/>
       <Footer/>
     </div>
   )
