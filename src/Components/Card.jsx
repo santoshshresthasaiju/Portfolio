@@ -46,9 +46,9 @@ const Card = () => {
                 </button>
             </div>
             <Modal show={showModal} onClose={handleCloseModal} />
-            <div className="absolute button-0 left-0 w-full h-auto">
+            {/* <div className="absolute button-0 left-0 w-full h-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bae6fd" fillOpacity="1" d="M0,288L80,266.7C160,245,320,203,480,197.3C640,192,800,224,960,213.3C1120,203,1280,149,1360,122.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-            </div>
+            </div> */}
         </div>
     )
 }
