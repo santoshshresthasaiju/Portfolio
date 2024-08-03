@@ -45,12 +45,12 @@ const About = () => {
   };
 
   return (
-    <div className="text-gray-500 py-16" id="about">
+    <div className="text-gray-500 py-20" id="about">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-4">
           {skillsSection.title}
         </h2>
-        <h3 className="text-xl text-center mb-8 text-gray-700">
+        <h3 className="text-xl text-center mb-8 text-gray-800">
           {skillsSection.subTitle}
         </h3>
         {skillsSection.data.map((skill, index) => (
