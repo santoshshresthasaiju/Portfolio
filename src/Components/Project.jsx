@@ -1,7 +1,8 @@
 import React from "react";
 import mmsedashboard from "../assets/mmsedashboard.png";
 import smsdashboard from "../assets/smsdashboard.png";
-import portfolio from "../assets/portfolio.png"
+import portfolio from "../assets/portfolio.png";
+import icon from "../assets/element1.png"
 
 const projects = [
   {
@@ -28,10 +29,17 @@ const Project = () => {
   return (
     <div className="bg-sky-200 py-20" id="projects">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-        <h2 className="text-4xl font-bold text-center text-sky-500 py-16">
-         My Projects
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex items-center px-3">
+          <div>
+            <div className="w-16 h-16 bg-white shadow-lg rounded-full flex items-center justify-center text-blue-500">
+              <img src={icon} />
+            </div>
+          </div>
+          <div className="pl-4">
+            <h4 className="text-sky-500 text-4xl font-semibold">Project</h4>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
           {projects.map((project, index) => (
             <div key={index} className="bg-white rounded-lg p-4 shadow-md">
               <img

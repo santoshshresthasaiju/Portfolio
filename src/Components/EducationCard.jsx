@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBook } from "react-icons/fa";
+import icon from "../assets/element2.png"
 
 const eduInfo = [
   {
@@ -36,7 +36,7 @@ const EducationCard = () => {
           <div className="flex items-center px-3">
             <div>
               <div className="w-16 h-16 bg-white shadow-lg rounded-full flex items-center justify-center text-blue-500">
-                <FaBook className="text-blue-500 text-2xl" />
+                <img src={icon} />
               </div>
             </div>
             <div className="pl-4">

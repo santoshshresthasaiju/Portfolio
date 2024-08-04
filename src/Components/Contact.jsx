@@ -27,7 +27,24 @@ const Contact = () => {
                 </div>
             </div>
             <div className="flex-1 w-full">
-                <form action=""></form>
+                <form className="space-y-4">
+                  <div>
+                    <label htmlFor="name">Name</label>
+                    <input type="text" className="w-full p-2 rounded bg-sky-100 border border-gray-600 focus:outline-none
+                    focus:border-yellow-600" placeholder="Enter your name" />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block mb-2">Email</label>
+                    <input type="text" className="w-full p-2 rounded bg-sky-100 border border-gray-600 focus:outline-none
+                    focus:border-yellow-600" placeholder="example@gmail.com" />
+                  </div>
+                  <div>
+                    <label htmlFor="message" className="block mb-2">Message</label>
+                    <textarea type="text" className="w-full p-2 rounded bg-sky-100 border border-gray-600 focus:outline-none
+                    focus:border-yellow-600" rows="5" placeholder="Enter your message" />
+                  </div>
+                  <button className="bg-gradient-to-r from-amber-500 to-yellow-100 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"> Send</button>
+                </form>
             </div>
         </div>
       </div>
