@@ -8,6 +8,7 @@ import EducationCard from "./Components/EducationCard"
 import Project from "./Components/Project"
 import Contact from "./Components/Contact"
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Chatbox from "./Components/Chatbox/Chatbox"
 
 function App(){
   return(
@@ -20,6 +21,7 @@ function App(){
       <Project/>
       <Contact/>
       <Footer/>
+      <Chatbox/>
     </div>
   )
 }

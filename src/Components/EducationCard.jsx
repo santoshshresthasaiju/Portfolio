@@ -20,7 +20,6 @@ const EducationCard = () => {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* SVG Background */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

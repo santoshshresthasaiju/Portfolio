@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <div className="mb-4 mt-4">
               <FaMapMarkedAlt className="inline-block text-orange-300 mr-2"></FaMapMarkedAlt>
-              <span>street, city, province, country</span>
+              <span>Urlabari-8, Koshi, Nepal</span>
             </div>
           </div>
           <div className="flex-1 w-full">
