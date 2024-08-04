@@ -7,6 +7,8 @@ import Service from "./Components/Service"
 import EducationCard from "./Components/EducationCard"
 import Project from "./Components/Project"
 import Contact from "./Components/Contact"
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 function App(){
   return(
     <div>

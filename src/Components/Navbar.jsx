@@ -30,10 +30,10 @@ function Navbar() {
           <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
         </ul>
         <div className="hidden md:flex space-x-4">
-          <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+          <a href="https://github.com/santoshshresthasaiju" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
             <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+          <a href="https://www.instagram.com/santoshshersthasaiju" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           <a href="https://www.linkedin.com/in/santosh-shrestha-saiju" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
@@ -43,10 +43,10 @@ function Navbar() {
       </div>
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
           <div className="flex space-x-4 py-4 justify-center">
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+            <a href="https://github.com/santoshshresthasaiju" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
               <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+            <a href="https://www.instagram.com/santoshshersthasaiju" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
               <FontAwesomeIcon icon={faInstagram} size="lg" />
             </a>
             <a href="https://www.linkedin.com/in/santosh-shrestha-saiju" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">

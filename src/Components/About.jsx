@@ -6,8 +6,7 @@ import Aboutimg from "../assets/aboutcard.gif";
 const About = () => {
   const skillsSection = {
     title: "What I do",
-    subTitle:
-      "BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH FIELD",
+    subTitle: "BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH FIELD",
     data: [
       {
         title: "Backend Development",
@@ -46,7 +45,7 @@ const About = () => {
 
   return (
     <div className="text-gray-500 py-20" id="about">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
         <h2 className="text-4xl font-bold text-center mb-4">
           {skillsSection.title}
         </h2>
@@ -62,7 +61,7 @@ const About = () => {
                 className="w-auto h-auto rounded object-cover mb-8 md:mb-0"
               />
               <div>
-              <h4 className="text-2xl font-semibold mb-4">{skill.title}</h4>
+                <h4 className="text-2xl font-semibold mb-4">{skill.title}</h4>
                 <div className="list-disc list-inside mb-4">
                   {skill.skills.map((skillItem, idx) => (
                     <div key={idx} className="mb-2">

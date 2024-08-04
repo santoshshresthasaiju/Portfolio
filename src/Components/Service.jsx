@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../assets/element.png"
+import icon from "../assets/element.png";
 const services = [
   {
     id: 1,
@@ -27,7 +27,7 @@ const services = [
 const Service = () => {
   return (
     <div className="bg-sky-200 py-20" id="services">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
         <div className="flex items-center px-3">
           <div>
             <div className="w-16 h-16 bg-white shadow-lg rounded-full flex items-center justify-center text-blue-500">
