@@ -21,7 +21,7 @@ const projects = [
     name: "SMS",
     technologies: "Django",
     image: smsdashboard,
-    github: "https://github.com/Prooey/simis.git",
+    github: "",
   },
 ];
 
