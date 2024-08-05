@@ -53,18 +53,18 @@ const About = () => {
           {skillsSection.subTitle}
         </h3>
         {skillsSection.data.map((skill, index) => (
-          <div key={index} className="skill mb-8">
+          <div key={index} className="skill mb-12">
             <div className="flex flex-col md:flex-row items-center md:space-x-12">
               <img
                 src={Aboutimg}
                 alt="About"
-                className="w-auto h-auto rounded object-cover mb-8 md:mb-0"
+                className="w-full md:w-1/2 lg:w-1/3 rounded object-cover mb-8 md:mb-0"
               />
-              <div>
+              <div className="w-full md:w-1/2 lg:w-2/3">
                 <h4 className="text-2xl font-semibold mb-4">{skill.title}</h4>
                 <div className="list-disc list-inside mb-4">
                   {skill.skills.map((skillItem, idx) => (
-                    <div key={idx} className="mb-2 p-4 md:p-6 lg:p-8">
+                    <div key={idx} className="mb-2">
                       <p className="text-sm md:text-base lg:text-lg leading-relaxed">
                         I am a passionate Backend Developer with a focus on
                         building modern and responsive web applications. With a
@@ -82,7 +82,7 @@ const About = () => {
                   {skill.softwareSkills.map((softwareSkill, id) => (
                     <div
                       key={id}
-                      className="software-skill flex items-center space-x-2 py-8"
+                      className="software-skill flex items-center space-x-2"
                     >
                       <div className="rounded-full bg-gray-200 p-3 flex items-center justify-center">
                         <Icon
