@@ -37,7 +37,15 @@ const Card = () => {
         <p className="mt-4 text-lg text-rose-50">
           I specialize in building modern and responsive web applications.
         </p>
-        <div className="flex space-x-4 py-4 mt-16">
+        <div className="flex text-2xl space-x-4 py-4 mt-16">
+          <button
+            className="bg-gradient-to-r from-blue-500 to-green-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+            onClick={handleOpenModal}
+          >
+            Resume
+          </button>
+        </div>
+        <div className="flex space-x-4 py-4">
           <a
             href="https://github.com/santoshshresthasaiju"
             target="_blank"
@@ -62,14 +70,6 @@ const Card = () => {
           >
             <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
-        </div>
-        <div className="flex justify-center text-xl text-center mb-12 space-x-4">
-          <button
-            className="bg-gradient-to-r from-blue-500 to-green-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
-            onClick={handleOpenModal}
-          >
-            Resume
-          </button>
         </div>
         <Modal show={showModal} onClose={handleCloseModal} />
       </div>

@@ -64,17 +64,17 @@ const About = () => {
                 <h4 className="text-2xl font-semibold mb-4">{skill.title}</h4>
                 <div className="list-disc list-inside mb-4">
                   {skill.skills.map((skillItem, idx) => (
-                    <div key={idx} className="mb-2">
-                      <p>
-                        I am a passionate Backend Developer with a fous on
+                    <div key={idx} className="mb-2 p-4 md:p-6 lg:p-8">
+                      <p className="text-sm md:text-base lg:text-lg leading-relaxed">
+                        I am a passionate Backend Developer with a focus on
                         building modern and responsive web applications. With a
-                        strong foundation in Python, Django Framework. I am
+                        strong foundation in Python and Django Framework, I am
                         strongly interested in learning new technologies and
                         implementing them in my projects. I'm a self-motivated
                         and hardworking individual who is always ready to learn
                         new things and work in a team.
                       </p>
-                      {skillItem}
+                      <div className="mt-2">{skillItem}</div>
                     </div>
                   ))}
                 </div>
