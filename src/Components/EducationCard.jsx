@@ -3,23 +3,20 @@ import icon from "../assets/element2.png";
 
 const eduInfo = [
   {
-    schoolName: "Birendra Memorial College(Tribhuwan University)",
-    subHeader:
-      "Bachelor of Science in Computer Science and Information Technology(BSc. CSIT)",
+    schoolName: "Birendra Memorial College (Tribhuwan University)",
+    subHeader: "Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)",
     duration: "2019 - 2024",
-    desc: "", // Description can be added here if needed
+    desc: "",
     grade: "",
-    descBullets: [], // Array of Strings for bullet points, if applicable
+    descBullets: [],
   },
 ];
 
 const EducationCard = () => {
-  // Destructure the first item from the eduInfo array
-  const { schoolName, subHeader, duration, desc, grade, descBullets } =
-    eduInfo[0];
+  const { schoolName, subHeader, duration, desc, grade, descBullets } = eduInfo[0];
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen overflow-hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
@@ -36,7 +33,7 @@ const EducationCard = () => {
           <div className="flex items-center px-3">
             <div>
               <div className="w-16 h-16 bg-white shadow-lg rounded-full flex items-center justify-center text-blue-500">
-                <img src={icon} />
+                <img src={icon} alt="Education Icon" className="w-10 h-10" />
               </div>
             </div>
             <div className="pl-4">
@@ -44,14 +41,16 @@ const EducationCard = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-            <div className="shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg">
-              <div className="bg-white p-4">
+            <div className="shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg bg-white">
+              <div className="p-4 md:p-6 lg:p-8">
                 <div className="flex flex-col space-y-4">
                   <div className="flex flex-col">
-                    <h5 className="text-blue-600 text-xl font-semibold">
+                    <h5 className="text-blue-600 text-xl md:text-2xl font-semibold">
                       {schoolName}
                     </h5>
-                    <h6 className="text-gray-800 text-lg">{subHeader}</h6>
+                    <h6 className="text-gray-800 text-lg md:text-xl">
+                      {subHeader}
+                    </h6>
                     <div className="flex space-x-2 mt-2">
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">
                         {duration}
