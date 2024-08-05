@@ -2,7 +2,8 @@ import React from "react";
 import mmsedashboard from "../assets/mmsedashboard.png";
 import smsdashboard from "../assets/smsdashboard.png";
 import portfolio from "../assets/portfolio.png";
-import icon from "../assets/element1.png"
+import icon from "../assets/element1.png";
+import diabetes from "../assets/diabetes.png";
 
 const projects = [
   {
@@ -22,6 +23,12 @@ const projects = [
     technologies: "Django",
     image: smsdashboard,
     github: "",
+  },
+  {
+    name: "DiabetesPrediction",
+    technologies: "Django and ML",
+    image: diabetes,
+    github: "https://github.com/santoshshresthasaiju/Final-Year-Project.git",
   },
 ];
 
