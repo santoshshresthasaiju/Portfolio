@@ -7,21 +7,22 @@ const Modal = ({ show, onClose }) => {
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-            <div className="bg-white rounded-lg overflow-hidden shadow-xl w-11/12 md:w-1/2 lg:w-1/3">
-                <div className="p-4">
+            <div className="bg-white rounded-lg overflow-hidden shadow-xl w-11/12 md:w-1/2 lg:w-1/3 h-4/5">
+                <div className="p-4 h-full flex flex-col">
                     <div className="flex justify-end">
-                        <button onClick={onClose} className="text-red-500">&times;</button>
+                        <button onClick={onClose} className="text-red-500 text-2xl">&times;</button>
                     </div>
-                    <div className="p-4">
+                    <div className="flex-grow p-4">
                         <iframe
-                            src="/cv.pdf"
+                            src="/Santosh_ShresthaCV.pdf"
                             title="CV"
-                            className="w-full h-96"
+                            className="w-full h-full"
+                            frameBorder="0"
                         ></iframe>
                     </div>
                     <div className="p-4 flex justify-end">
                         <a
-                            href="/cv.pdf"
+                            href="/Santosh_ShresthaCV.pdf"
                             download
                             className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-4 py-2 rounded-full"
                         >
