@@ -20,7 +20,7 @@ const Card = () => {
   };
 
   return (
-    <div className="relative bg-sky-200 text-white text-center py-20" id="home">
+    <div className="relative bg-sky-300 text-white text-center py-20" id="home">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
         <img
           src={Cardimg}
