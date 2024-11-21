@@ -35,6 +35,9 @@ const Contact = () => {
 
       const result = await response.json();
       alert(result.message || "Message sent successfully!");
+      setName('');
+      setEmail('');
+      setMessage('');
     } catch (error) {
       console.error("Error:", error);
       alert("Failed to send message.");
